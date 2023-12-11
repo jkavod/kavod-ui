@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Itim&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none;
+}

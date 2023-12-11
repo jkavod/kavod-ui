@@ -1,0 +1,23 @@
+body {
+  background-color: #292A2E;
+}
+
+.btn {
+  background-color:  #E6BE8A;
+  box-shadow: rgba(153, 101, 21, 0.6) 0px 5px 15px;
+}
+
+.btn:hover {
+  background-color: #E6BE8A;
+}
+
+.gradient {
+  color: #E6BE8A;
+}
+
+.active {
+  background-color: #E6BE8A;
+  color: #fff;
+  padding: .2rem;
+  border-radius: 100%;
+}
