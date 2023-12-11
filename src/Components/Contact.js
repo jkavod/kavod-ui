@@ -29,7 +29,7 @@ export default function Contact() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+            className="flex-1 bg-blur-3xl border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
           >
             <input
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-3"
