@@ -20,11 +20,11 @@ const services = [
     description: "LlLJJAJSjdwd dwd dhw",
     link: "Learn more",
   },
-  // {
-  //   name: "Digital Marktei",
-  //   description: 'LlLJJAJSjdwd dwd dhw',
-  //   link: "Learn more",
-  // },
+  {
+    name: "Smart Contract Development",
+    description: 'LlLJJAJSjdwd dwd dhw',
+    link: "Learn more",
+  },
 ];
 
 export default function Services() {
@@ -40,7 +40,7 @@ export default function Services() {
           className="flex-1 lg:h-[80vh] bg-contain lg:bg-services lg:bg-top bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
             <h2 className="h2 font-primary text-accent mb-6">What i do</h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I am a freelan software Developer
+              I am a freelance software Developer
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>

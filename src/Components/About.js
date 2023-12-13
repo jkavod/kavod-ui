@@ -30,9 +30,9 @@ export default function About() {
           >
             <h1 className="h2 text-accent">About me</h1>
             <h3 className="h3 mb-4 text-secondary">
-              I am a freelance software develoh3er
+              I am a freelance software developer
             </h3>
-            <p className="text-secondary">Dhhtnltlgnognotiges</p>
+            <p className="text-secondary max-w-lg mb-10 text-justify">My passion for the decentralized web and its potential to revolutionize the technology industry motivates me to stay up-to-date with the latest Web3 technologies such as Ethereum, Polkadot, and IPFS. </p>
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-accent mb-2">
@@ -60,7 +60,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <button className="btn btn-lg mr-5">Contact Me</button>
+              <button className="btn btn-lg mr-5 text-dark font-bold">Contact Me</button>
               <a href="#" className="text-accent btn-link">
                 My Portfolio
               </a>

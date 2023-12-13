@@ -19,7 +19,7 @@ export default function Work() {
               <h2 className="h2 leading-tight text-primary">
                 My Latest <br /> Work
               </h2>
-              <p className="max-w-sm mb-16">jhwhjddbdjwd </p>
+              <p className="max-w-2xl mb-16 text-justify">I have a talent for identifying emerging trends and opportunities and staying ahead of the curve in technology and innovation. As a team player, I enjoy working collaboratively with other engineers, data scientists, and product managers to drive innovation and growth for my organization.</p>
               <button className="btn btn-sm">View All Projects</button>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">

@@ -1,20 +1,16 @@
-import './App.css';
-import { Header, Nav } from './UI'
-import { About, Contact, Hero, Services, Work } from './Components'
-
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Home } from "./Pages";
 
 function App() {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
-      <Hero />
-      <Nav />
-      <About />
-      <Services />
-      <Work />
-      <Contact />
-      {/* <div className='h-[4000px]'></div> */}
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
